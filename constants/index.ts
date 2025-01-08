@@ -61,16 +61,17 @@ export const NAV_LINKS = [
       ],
     },
     {
+      href: "/", 
       title: 'Our Community',
-      links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+      links: ['Climbing routes', 'Hiking routes', 'Hilink tour guides'],
     },
   ];
   
   export const FOOTER_CONTACT_INFO = {
     title: 'Contact Us',
     links: [
-      { label: 'Admin Officer', value: '123-456-7890' },
-      { label: 'Email Officer', value: 'hilink@akinthil.com' },
+      { href: "/", label: 'Admin Officer', value: '123-456-7890' },
+      { href: "/", label: 'Email Officer', value: 'hilink@akinthil.com' },
     ],
   };
   
@@ -79,7 +80,7 @@ export const NAV_LINKS = [
     links: [
       '/facebook.svg',
       '/instagram.svg',
-      '/twitter.svg',
+      '/x-icon.svg',
       '/youtube.svg',
       '/wordpress.svg',
     ],
