@@ -71,7 +71,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="fixed bottom-0 left-0 right-0 top-0 z-50 flex flex-col items-end gap-4 bg-slate-50 pr-6 pt-16 transition-transform duration-300 ease-in-out md:hidden translate-x-0">
+        <div className="fixed bottom-0 left-0 right-0 top-0 z-50 flex flex-col items-end gap-4 bg-slate-50 px-6 pt-16 transition-transform duration-300 ease-in-out md:hidden translate-x-0">
           {/* Close Menu Icon */}
           <button
             onClick={toggleMenu}
