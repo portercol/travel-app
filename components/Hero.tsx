@@ -37,8 +37,8 @@ const Hero = () => {
               ))}
           </div>
           <p className="bold-16 lg:bold-20 text-cyan-600">
-            200k
-            <span className="regular-16 lg:regular-20 ml-1">Great reviews</span>
+            25k
+            <span className="regular-16 lg:regular-20 ml-1">reviews</span>
           </p>
         </div>
         <div className="flex flex-col w-full gap-3 sm:flex-row">
