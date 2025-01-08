@@ -71,19 +71,20 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="absolute top-0 left-0 w-full h-screen bg-white flex flex-col items-start justify-start gap-4 pt-12 px-4 z-40">
+        // <div className="absolute top-0 left-0 w-full h-screen bg-slate-50 flex flex-col items-start justify-start gap-4 pt-12 px-4 z-40">
+        <div className="fixed bottom-0 left-0 right-0 top-0 z-50 flex flex-col items-end gap-4 bg-slate-50 pr-6 pt-16 transition-transform duration-300 ease-in-out md:hidden translate-x-0">
           {/* Close Menu Icon */}
           <button
             onClick={toggleMenu}
             aria-label="Close menu"
-            className="absolute top-5 right-5 text-3xl text-slate-800"
+            className="absolute top-5 right-5 p-2 text-3xl text-slate-800"
           >
             {/* Mobile Menu Icon */}
             <MdClose />
           </button>
 
           {/* Mobile Menu Links */}
-          <ul className="flex flex-col items-start gap-4">
+          <ul className="flex flex-col pt-4 items-end gap-4">
             {NAV_LINKS.map((link) => (
               <Link
                 href={link.href}
