@@ -18,32 +18,32 @@ export const NAV_LINKS = [
   // FEATURES SECTION
   export const FEATURES = [
     {
-      title: 'Real maps can be offline',
+      title: 'Real maps available offline',
       icon: '/map.svg',
       variant: 'green',
       description:
-        'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+        'We provide a solution for you to use our app while climbing/hiking. Offline maps you can use at any time there is no internet connection.',
     },
     {
       title: 'Set an adventure schedule',
       icon: '/calendar.svg',
       variant: 'green',
       description:
-        "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+        "Schedule an adventure with friends. Check out our seasonal/holidy promotions from Hilink.",
     },
     {
-      title: 'Technology using augment reality',
+      title: 'Technology using augmented reality',
       icon: '/tech.svg',
       variant: 'green',
       description:
-        'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+        'Technology using augmented reality as a guide through your hiking trail. Already supported by the latest technology without an internet connection',
     },
     {
-      title: 'Many new locations every month',
+      title: 'Brand new locations every month',
       icon: '/location.svg',
       variant: 'orange',
       description:
-        'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+        'Brand new locations every month! We have a worldwide community of climbers who share their best experiences with hiking all around the world.',
     },
   ];
   
